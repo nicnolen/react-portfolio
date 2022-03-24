@@ -1,36 +1,26 @@
 import React from 'react';
-import projectInfo from './projects.json';
-import ProjectCard from '../ProjectCard';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Wrapper = props => {
-  return <div className='wrapper'>{props.children}</div>;
-};
-
-function Project() {
+function ProjectCard({ title, description, image, github, deployed, tools }) {
   return (
-    <section className='container'>
-      <div className='project'>
-        <h2 className='top-title'>Professional Portfolio</h2>
-        <hr></hr>
+    <div className='card'>
+      <div className='img-container'>
+        <a href={deployed}>
+          <img src={image} alt={description} width='150' height='70' />
+        </a>
       </div>
-
-      <Wrapper id='card-data'>
-        I am the project component
-        {projectInfo.map(project => (
-          <ProjectCard
-            key={project.id}
-            title={project.title}
-            image={project.image}
-            description={project.description}
-            github={project.github}
-            deployed={project.deployed}
-            tools={project.tools}
+      <div className='content'>
+        <a href={github} title={description}>
+          <img
+            src='../../assets/images/projectImages/github.png'
+            alt='GitHub Repo'
           />
-        ))}
-      </Wrapper>
-    </section>
+          <h3 className='card-title'>{title}</h3>
+        </a>
+        <h4>{tools}</h4>
+      </div>
+    </div>
   );
 }
 
-export default Project;
+export default ProjectCard;
