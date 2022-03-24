@@ -1,9 +1,16 @@
 // Import dependencies
 import React from 'react';
-import './assets/css/index.css'
+import Project from './components/Portfolio';
+import './assets/css/App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Project />
+    </div>
+  );
 }
 
 export default App;
