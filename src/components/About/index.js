@@ -1,18 +1,19 @@
 import React from 'react';
+import Skills from '../Skills';
 
 function About() {
   return (
     <section className='container'>
-      <h2 class='top-title'>About Me</h2>
+      <h2 className='top-title'>About Me</h2>
       <hr></hr>
       <div>
         <img
-          class='mb-5'
+          className='mb-5'
           src='../../assets/images/portfolioImages/professional-picture.png'
           alt='Professional Headshot'
           width='150'
           height='70'></img>
-        <h3 class='about-intro'>Hello, I'm Nicholas Nolen</h3>
+        <h3 className='about-intro'>Hello, I'm Nicholas Nolen</h3>
         <p>
           I am a Full Stack Web Developer leveraging a business background to
           build sites oriented towards mobile responsiveness.
@@ -40,6 +41,7 @@ function About() {
           expectations.
         </p>
       </div>
+      <Skills />
     </section>
   );
 }

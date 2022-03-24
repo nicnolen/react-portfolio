@@ -1,13 +1,13 @@
 import React from 'react';
 import projectInfo from './projects.json';
-import ProjectCard from '../Project';
+import Project from '../Project';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Wrapper = props => {
   return <div className='wrapper'>{props.children}</div>;
 };
 
-function Project() {
+function Portfolio() {
   return (
     <section className='container'>
       <div className='project'>
@@ -17,7 +17,7 @@ function Project() {
 
       <Wrapper id='card-data'>
         {projectInfo.map(project => (
-          <ProjectCard
+          <Project
             key={project.id}
             title={project.title}
             image={project.image}
@@ -32,4 +32,4 @@ function Project() {
   );
 }
 
-export default Project;
+export default Portfolio;

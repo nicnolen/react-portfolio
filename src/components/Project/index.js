@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function ProjectCard({ title, description, image, github, deployed, tools }) {
+function Project({ title, description, image, github, deployed, tools }) {
   return (
     <div className='card'>
       <div className='img-container'>
@@ -23,4 +23,4 @@ function ProjectCard({ title, description, image, github, deployed, tools }) {
   );
 }
 
-export default ProjectCard;
+export default Project;
