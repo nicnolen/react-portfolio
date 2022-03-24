@@ -5,7 +5,7 @@
     "description": "Professional portfolio to showcase skills to employers",
     "image": "../../assets/images/projectImages/travel-lovers.png",
     "github": "https://github.com/nicnolen/Travel-Lovers",
-    "deploy": "https://travel--lovers.herokuapp.com/",
+    "deployed": "https://travel--lovers.herokuapp.com/",
     "tools": "Handlebars.js, Sequelize, SASS, bcrypt"
   },
   {
@@ -14,7 +14,7 @@
     "description": "Professional portfolio to showcase skills to employers",
     "image": "../../assets/images/projectImages/travel-lovers.png",
     "github": "https://github.com/nicnolen/Travel-Lovers",
-    "deploy": "https://travel--lovers.herokuapp.com/",
+    "deployed": "https://travel--lovers.herokuapp.com/",
     "tools": "Handlebars.js, Sequelize, SASS, bcrypt"
   }
 ]

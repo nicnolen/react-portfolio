@@ -24,7 +24,7 @@ function Project() {
             image={project.image}
             description={project.description}
             github={project.github}
-            deploy={project.deploy}
+            deployed={project.deployed}
             tools={project.tools}
           />
         ))}
