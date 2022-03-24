@@ -5,15 +5,15 @@ function ProjectCard({ title, description, image, github, deployed, tools }) {
   return (
     <div className='card'>
       <div className='img-container'>
-        <a href={deployed} title={description}>
-          <img src={image} alt={description} />
+        <a href={deployed}>
+          <img src={image} alt={description}  width="150" height="70"/>
         </a>
       </div>
       <div className='content'>
         <a href={github} title={description}>
           <h3 className='card-title'>{title}</h3>
-          <h4>{tools}</h4>
         </a>
+        <h4>{tools}</h4>
       </div>
     </div>
   );

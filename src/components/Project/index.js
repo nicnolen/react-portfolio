@@ -20,8 +20,9 @@ function Project() {
         {projectInfo.map(project => (
           <ProjectCard
             key={project.id}
-            image={project.image}
             title={project.title}
+            image={project.image}
+            description={project.description}
             github={project.github}
             deploy={project.deploy}
             tools={project.tools}
