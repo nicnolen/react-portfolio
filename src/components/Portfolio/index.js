@@ -3,11 +3,11 @@ import projectInfo from './projects.json';
 import Project from '../Project';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Wrapper = props => {
-  return <div className='wrapper'>{props.children}</div>;
-};
-
 function Portfolio() {
+  const Wrapper = props => {
+    return <div className='wrapper'>{props.children}</div>;
+  };
+  
   return (
     <section className='container'>
       <div className='project'>

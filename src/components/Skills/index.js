@@ -1,17 +1,22 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-function Skills() {
-  const [skills] = useState([
-    {
-      name: 'Git Bash',
-      category: 'front-end',
-      documentation: 'https://git-scm.com/docs',
-    },
-  ]);
+function Skills({ name, category, documentation }) {
   return (
     <span>
       <h3>Front End Skills</h3>
-      <p></p>
+      <ul>
+        <li>
+          <a href={documentation}>{name}</a>
+        </li>
+      </ul>
+      <h3>Back End Skills</h3>
+      <ul>
+      
+      </ul>
+      <h3>Technical Skills</h3>
+      <ul>
+       
+      </ul>
     </span>
   );
 }

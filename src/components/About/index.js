@@ -1,7 +1,13 @@
 import React from 'react';
 import Skills from '../Skills';
+import skillsInfo from './skills.json';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About() {
+  const Wrapper = props => {
+    return <div className='wrapper'>{props.children}</div>;
+  };
+
   return (
     <section className='container'>
       <h2 className='top-title'>About Me</h2>
@@ -41,7 +47,17 @@ function About() {
           expectations.
         </p>
       </div>
-      <Skills />
+
+      <Wrapper id='card-data'>
+        {skillsInfo.map((skill, i) => (
+          <Skills
+            key={i}
+            name={skill.name}
+            category={skill.category}
+            documentation={skill.documentation}
+          />
+        ))}
+      </Wrapper>
     </section>
   );
 }
