@@ -1,7 +1,6 @@
 import React from 'react';
 import projectInfo from './projects.json';
 import Project from '../Project';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio() {
   const Wrapper = props => {
