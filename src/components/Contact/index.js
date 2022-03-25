@@ -58,8 +58,8 @@ function ContactForm() {
             type='text'
             name='name'
             defaultValue={name}
+            autoFocus
             onBlur={handleChange}
-            autofocus
           />
         </div>
         <div>
@@ -74,7 +74,7 @@ function ContactForm() {
         <div>
           <label htmlFor='message'>Message:</label>
           <textarea
-            name='messages'
+            name='message'
             rows='5'
             defaultValue={message}
             onBlur={handleChange}
@@ -85,7 +85,7 @@ function ContactForm() {
             </div>
           )}
         </div>
-        <button type='submit'></button>
+        <button type='submit'>Submit</button>
       </form>
     </section>
   );
