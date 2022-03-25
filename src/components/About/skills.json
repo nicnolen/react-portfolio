@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Git Bash",
+    "category": "frontend",
+    "documentation": "https://git-scm.com/docs"
+  },
+  {
+    "name": "GitHub",
+    "category": "frontend",
+    "documentation": "https://docs.github.com/en/get-started/quickstart/set-up-git"
+  },
+  {
+    "name": "Markdown",
+    "category": "frontend",
+    "documentation": "https://www.markdownguide.org/basic-syntax"
+  },
+  {
+    "name": "HTML",
+    "category": "frontend",
+    "documentation": "https://www.w3schools.com/html/"
+  },
+  {
+    "name": "CSS",
+    "category": "frontend",
+    "documentation": "https://www.w3schools.com/css/"
+  },
+  {
+    "name": "Sass",
+    "category": "frontend",
+    "documentation": "https://sass-lang.com/documentation"
+  },
+  {
+    "name": "Bootstrap",
+    "category": "frontend",
+    "documentation": "https://getbootstrap.com/docs/4.1/getting-started/introduction/"
+  },
+  {
+    "name": "Bulma",
+    "category": "frontend",
+    "documentation": "https://bulma.io/documentation/"
+  },
+  {
+    "name": "Iconic",
+    "category": "frontend",
+    "documentation": "https://iconicwp.com/docs/"
+  },
+  {
+    "name": "Font Awesome",
+    "category": "frontend",
+    "documentation": "https://fontawesome.com/docs/web/setup/get-started"
+  },
+  {
+    "name": "JavaScript",
+    "category": "frontend",
+    "documentation": "https://www.w3schools.com/js/default.asp"
+  },
+  {
+    "name": "JSON",
+    "category": "frontend",
+    "documentation": "https://www.json.org/json-en.html"
+  },
+  {
+    "name": "React.js",
+    "category": "frontend",
+    "documentation": "https://reactjs.org/docs/getting-started.html"
+  },
+  {
+    "name": "Webpack",
+    "category": "frontend",
+    "documentation": "https://webpack.js.org/concepts/"
+  },
+  {
+    "name": "Handlebars.js",
+    "category": "frontend",
+    "documentation": "https://handlebarsjs.com/guide/"
+  },
+  {
+    "name": "jQuery",
+    "category": "frontend",
+    "documentation": "https://api.jquery.com/"
+  },
+  {
+    "name": "Moment.js",
+    "category": "frontend",
+    "documentation": "https://momentjs.com/"
+  },
+  {
+    "name": "Shell Script",
+    "category": "frontend",
+    "documentation": "https://devdocs.io/bash/"
+  },
+  {
+    "name": "Adobe Photoshop",
+    "category": "frontend",
+    "documentation": "https://helpx.adobe.com/photoshop/user-guide.html"
+  },
+  {
+    "name": "SPAs",
+    "category": "frontend",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Glossary/SPA"
+  },
+  {
+    "name": "Heroku",
+    "category": "backend",
+    "documentation": "https://devcenter.heroku.com/categories/reference"
+  },
+  {
+    "name": "Node.js",
+    "category": "backend",
+    "documentation": "https://nodejs.org/en/docs/"
+  },
+  {
+    "name": "Express.js",
+    "category": "backend",
+    "documentation": "https://expressjs.com/en/5x/api.html"
+  },
+  {
+    "name": "MySQL",
+    "category": "backend",
+    "documentation": "https://dev.mysql.com/doc/refman/8.0/en/dynindex-statement.html"
+  },
+  {
+    "name": "Sequelize",
+    "category": "backend",
+    "documentation": "https://sequelize.org/v7/manual/getting-started.html"
+  },
+  {
+    "name": "JawsDB",
+    "category": "backend",
+    "documentation": "https://www.jawsdb.com/docs/#mysql"
+  },
+  {
+    "name": "MongoDB",
+    "category": "backend",
+    "documentation": "https://www.mongodb.com/docs/manual/tutorial/getting-started/"
+  },
+  {
+    "name": "Mongoose",
+    "category": "backend",
+    "documentation": "https://mongoosejs.com/docs/api.html"
+  },
+  {
+    "name": "MongoDB Atlas",
+    "category": "backend",
+    "documentation": "https://www.mongodb.com/docs/atlas/getting-started/"
+  },
+  {
+    "name": "Inquirer",
+    "category": "backend",
+    "documentation": "https://www.npmjs.com/package/inquirer#documentation"
+  },
+  {
+    "name": "sessionstorage",
+    "category": "backend",
+    "documentation": "https://www.npmjs.com/package/sessionstorage"
+  },
+  {
+    "name": "bcrypt",
+    "category": "backend",
+    "documentation": "https://www.npmjs.com/package/bcrypt"
+  },
+  {
+    "name": "dotenv",
+    "category": "backend",
+    "documentation": "https://www.npmjs.com/package/dotenv"
+  },
+  {
+    "name": "Jest",
+    "category": "backend",
+    "documentation": "https://jestjs.io/docs/getting-started"
+  },
+  {
+    "name": "Insomnia",
+    "category": "backend",
+    "documentation": "https://docs.insomnia.rest/"
+  },
+  {
+    "name": "Benchmark.js",
+    "category": "backend",
+    "documentation": "https://benchmarkjs.com/docs"
+  },
+  {
+    "name": "PWAs",
+    "category": "backend",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
+  },
+  {
+    "name": "TDD",
+    "category": "backend",
+    "documentation": "https://en.wikipedia.org/wiki/Test-driven_development"
+  },
+  {
+    "name": "OOP",
+    "category": "backend",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming"
+  },
+  {
+    "name": "MVC",
+    "category": "backend",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Glossary/MVC"
+  },
+  {
+    "name": "REST APIs",
+    "category": "backend",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Glossary/REST"
+  },
+  {
+    "name": "ORM",
+    "category": "backend",
+    "documentation": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"
+  },
+  {
+    "name": "ODM",
+    "category": "backend",
+    "documentation": "https://www.tutorialspoint.com/phalcon/phalcon_object_document_mapper.htm"
+  },
+  {
+    "name": "Communication",
+    "category": "technical"
+  },
+  {
+    "name": "Time Management",
+    "category": "technical"
+  },
+  {
+    "name": "Problem Solving",
+    "category": "technical"
+  },
+  {
+    "name": "Group Work",
+    "category": "technical"
+  },
+  {
+    "name": "Self-Starter",
+    "category": "technical"
+  }
+]
