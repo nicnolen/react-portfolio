@@ -29,7 +29,26 @@ function ContactForm() {
         setErrorMessage('');
       }
     }
-  }
+    // if there are no error messages
+    if (!errorMessage) {
+      // update the formState value for the name property
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+    }
+  };
+
+  // Handle submit function
+  const handleSubmit = e => {
+    e.preventDefault();
+    
+    if (!errorMessage) {
+      console.info('Form', formState);
+      return true;
+    } else {
+      console.error(errorMessage);
+      return false;
+    }
+  };
+
   return (  );
 }
 
