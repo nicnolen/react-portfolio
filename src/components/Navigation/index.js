@@ -1,24 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 
-function Navigation(props) {
-  const { 
-    categories = [],
-    setCurrentCategory,
-    currentCategory,
-    contactSelected,
-    setContactSelected,
-  } = props;
-
-  const categorySelected = name => {
-    console.info(`${name} selected`);
-    return name;
-  }
-
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
-  
-  return (  );
+function Navigation() {
+  return <header>console.log('hello World')</header>;
 }
 
 export default Navigation;
