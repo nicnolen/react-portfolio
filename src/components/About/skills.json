@@ -3,5 +3,15 @@
     "name": "Git Bash",
     "category": "frontend",
     "documentation": "https://git-scm.com/docs"
+  },
+  {
+    "name": "Nice",
+    "category": "backend",
+    "documentation": "https://www.google.com/"
+  },
+  {
+    "name": "woo",
+    "category": "technical",
+    "documentation": "https://www.google.com/"
   }
 ]
