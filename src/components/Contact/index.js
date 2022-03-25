@@ -1,5 +1,5 @@
-import React from 'react';
-import { validateEmail } from '../../utils/helpers'
+import React, { useState } from 'react';
+import { validateEmail } from '../../utils/helpers';
 
 function ContactForm() {
   const [formState, setFormState] = useState({
@@ -9,13 +9,13 @@ function ContactForm() {
   });
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
-  
-  // Handle change function 
+
+  // Handle change function
   const handleChange = e => {
     // validate email
     if (e.target.name === 'email') {
       const isValid = validateEmail(e.target.value);
-      // isValid conditional statement 
+      // isValid conditional statement
       if (!isValid) {
         setErrorMessage('Invalid email format!');
       } else {
@@ -39,7 +39,7 @@ function ContactForm() {
   // Handle submit function
   const handleSubmit = e => {
     e.preventDefault();
-    
+
     if (!errorMessage) {
       console.info('Form', formState);
       return true;
@@ -49,7 +49,46 @@ function ContactForm() {
     }
   };
 
-  return (  );
+  return (
+    <section>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label htmlFor='name'>Name:</label>
+          <input
+            type='text'
+            name='name'
+            defaultValue={name}
+            onBlur={handleChange}
+            autofocus
+          />
+        </div>
+        <div>
+          <label htmlFor='email'>Email Address:</label>
+          <input
+            type='email'
+            name='email'
+            defaultValue={email}
+            onBlur={handleChange}
+          />
+        </div>
+        <div>
+          <label htmlFor='message'>Message:</label>
+          <textarea
+            name='messages'
+            rows='5'
+            defaultValue={message}
+            onBlur={handleChange}
+          />
+          {errorMessage && (
+            <div>
+              <p className='errorText'>{errorMessage}</p>
+            </div>
+          )}
+        </div>
+        <button type='submit'></button>
+      </form>
+    </section>
+  );
 }
 
 export default ContactForm;
