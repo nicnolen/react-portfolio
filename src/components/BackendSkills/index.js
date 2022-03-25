@@ -3,11 +3,13 @@ function BackendSkills({ name, category, documentation }) {
   return (
     <div>
       {category === 'backend' && (
-          <ul>
-            <li>
-              <a href={documentation}>{name}</a>
-            </li>
-          </ul>
+        <ul>
+          <li>
+            <a href={documentation} target='_blank' rel='noreferrer'>
+              {name}
+            </a>
+          </li>
+        </ul>
       )}{' '}
     </div>
   );

@@ -107,47 +107,42 @@
   {
     "name": "Node.js",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://nodejs.org/en/docs/"
   },
   {
     "name": "Express.js",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://expressjs.com/en/5x/api.html"
   },
   {
     "name": "MySQL",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://dev.mysql.com/doc/refman/8.0/en/dynindex-statement.html"
   },
   {
     "name": "Sequelize",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://sequelize.org/v7/manual/getting-started.html"
   },
   {
     "name": "JawsDB",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://www.jawsdb.com/docs/#mysql"
   },
   {
     "name": "MongoDB",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://www.mongodb.com/docs/manual/tutorial/getting-started/"
   },
   {
     "name": "Mongoose",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://mongoosejs.com/docs/api.html"
   },
   {
     "name": "MongoDB Atlas",
     "category": "backend",
-    "documentation": "https://www.google.com/"
-  },
-  {
-    "name": "PWAs",
-    "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://www.mongodb.com/docs/atlas/getting-started/"
   },
   {
     "name": "Inquirer",
@@ -157,62 +152,67 @@
   {
     "name": "sessionstorage",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://www.npmjs.com/package/sessionstorage"
   },
   {
     "name": "bcrypt",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://www.npmjs.com/package/bcrypt"
   },
   {
     "name": "dotenv",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://www.npmjs.com/package/dotenv"
   },
   {
     "name": "Jest",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://jestjs.io/docs/getting-started"
   },
   {
     "name": "Insomnia",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://docs.insomnia.rest/"
   },
   {
     "name": "Benchmark.js",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://benchmarkjs.com/docs"
+  },
+  {
+    "name": "PWAs",
+    "category": "backend",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
   },
   {
     "name": "TDD",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://en.wikipedia.org/wiki/Test-driven_development"
   },
   {
     "name": "OOP",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming"
   },
   {
     "name": "MVC",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://developer.mozilla.org/en-US/docs/Glossary/MVC"
   },
   {
     "name": "REST APIs",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://developer.mozilla.org/en-US/docs/Glossary/REST"
   },
   {
     "name": "ORM",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"
   },
   {
     "name": "ODM",
     "category": "backend",
-    "documentation": "https://www.google.com/"
+    "documentation": "https://www.tutorialspoint.com/phalcon/phalcon_object_document_mapper.htm"
   },
   {
     "name": "Communication",
