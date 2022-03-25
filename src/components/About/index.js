@@ -1,5 +1,7 @@
 import React from 'react';
-import Skills from '../Skills';
+import FrontendSkills from '../FrontendSkills';
+import BackendSkills from '../BackendSkills';
+import TechnicalSkills from '../TechnicalSkills';
 import skillsInfo from './skills.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -49,8 +51,27 @@ function About() {
       </div>
 
       <Wrapper id='card-data'>
+        <h3> Front End Skills</h3>
         {skillsInfo.map((skill, i) => (
-          <Skills
+          <FrontendSkills
+            key={i}
+            name={skill.name}
+            category={skill.category}
+            documentation={skill.documentation}
+          />
+        ))}
+        <h3> Back End Skills</h3>
+        {skillsInfo.map((skill, i) => (
+          <BackendSkills
+            key={i}
+            name={skill.name}
+            category={skill.category}
+            documentation={skill.documentation}
+          />
+        ))}
+        <h3> Technical Skills</h3>
+        {skillsInfo.map((skill, i) => (
+          <TechnicalSkills
             key={i}
             name={skill.name}
             category={skill.category}
