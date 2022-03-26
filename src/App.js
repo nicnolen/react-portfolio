@@ -21,10 +21,10 @@ function App() {
         <div>
           <Routes>
             <Route exact path='/' render={() => <Navigate to='/about' />} />
-            <Route path='/about' element={<About />}></Route> />
-            <Route path='/project' element={<Project />}></Route> />
-            <Route path='/contact' element={<Contact />}></Route> />
-            <Route path='/resume' element={<Resume />}></Route> />
+            <Route path='/about' element={<About />}></Route> 
+            <Route path='/project' element={<Project />}></Route> 
+            <Route path='/contact' element={<Contact />}></Route> 
+            <Route path='/resume' element={<Resume />}></Route> 
           </Routes>
         </div>
       </HashRouter>

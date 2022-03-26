@@ -7,16 +7,32 @@ function Navigation() {
     <div>
       <Navbar expand='lg' bg='dark' sticky='top'>
         <Container>
-          <Navbar.Brand href='/'>Nicholas Nolen</Navbar.Brand>
+          <Navbar.Brand href='/'>
+            <h1 class='text-light nav-title-font'>Nicholas Nolen</h1>
+          </Navbar.Brand>
         </Container>
 
         <Container>
-          <ul>
-            <li>
-              <NavLink to='/about'>About Me</NavLink>
+          <ul class='navbar-nav ml-auto navitem-indent'>
+            <li class='nav-item'>
+              <NavLink to='/about'>
+                <span class='text-light nav-font'>About Me</span>
+              </NavLink>
             </li>
-            <li>
-              <NavLink to='/project'>Project</NavLink>
+            <li class='nav-item'>
+              <NavLink to='/project'>
+                <span class='text-light nav-font'>Projects</span>
+              </NavLink>
+            </li>
+            <li class='nav-item'>
+              <NavLink to='/contact'>
+                <span class='text-light nav-font'>Contact</span>
+              </NavLink>
+            </li>
+            <li class='nav-item'>
+              <NavLink to='/resume'>
+                <span class='text-light nav-font'>Resume</span>
+              </NavLink>
             </li>
           </ul>
         </Container>
