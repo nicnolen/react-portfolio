@@ -58,7 +58,6 @@ function ContactForm() {
             type='text'
             name='name'
             defaultValue={name}
-            autoFocus
             onBlur={handleChange}
           />
         </div>
