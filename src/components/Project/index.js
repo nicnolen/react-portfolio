@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Project({ title, description, image, github, deployed, tools }) {
   return (
