@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Routes, Route, Navigate, HashRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Project from '../Portfolio';
 import About from '../About';
 import Navigation from '../Navigation';
@@ -43,7 +43,7 @@ function Header() {
 
         <div>
           <Routes>
-            <Route exact path='/' render={() => <Navigate to='/about' />} />
+            <Route exact path='/' element={<About />} />
             <Route path='/about' element={<About />}></Route>
             <Route path='/project' element={<Project />}></Route>
             <Route path='/contact' element={<Contact />}></Route>

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
+import '../../assets/css/Navigation.css';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 import { Navbar, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-import '../../assets/css/Navigation.css';
 
 function Navigation(props) {
   const {
@@ -26,20 +26,21 @@ function Navigation(props) {
       <Navbar expand='lg' bg='dark' sticky='top'>
         <Container>
           <Navbar.Brand href='/'>
-            <h1 class='text-light nav-title-font'>Nicholas Nolen</h1>
+            <h1 className='text-light nav-title-font'>Nicholas Nolen</h1>
           </Navbar.Brand>
         </Container>
 
         <Container>
-          <ul class='navbar-nav ml-auto navitem-indent'>
-            <li class={`mx-2 nav-item ${aboutSelected && 'navActive'}`}>
+          <ul className='navbar-nav ml-auto navitem-indent'>
+            <li className={`mx-2 nav-item ${aboutSelected && 'focus'}`}>
               <NavLink
+                className='navLink'
                 to='/about'
                 onClick={() => {
                   categorySelected('About Me');
                   setAboutSelected(true);
                 }}>
-                <span class='text-light nav-font'>About Me</span>
+                <span>About Me</span>
               </NavLink>
             </li>
             {categories.map(category => (
@@ -48,10 +49,10 @@ function Navigation(props) {
                 className={`mx-1 'nav-item' ${
                   currentCategory.name === category.name &&
                   !aboutSelected &&
-                  'navActive'
+                  'focus'
                 }`}
                 key={category.name}>
-                <NavLink to={`/${category.name}`}>
+                <NavLink className='navLink' to={`/${category.name}`}>
                   <span
                     onClick={() => {
                       setCurrentCategory(category);
