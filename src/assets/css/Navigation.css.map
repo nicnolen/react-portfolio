@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/variables.sass","../sass/Navigation.sass"],"names":[],"mappings":"AAAA;AAKA;ACHA;EACE","file":"Navigation.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/variables.sass","../sass/index.sass","../sass/Navigation.sass"],"names":[],"mappings":"AAAA;AAOA;AAPA;AAOA;ACLA;AACA;EACE;EACA;EACA;;;AAEF;EACE;EACA;EACA;EACA;;;AAGF;EACE;;;AAEF;EACE;;;AChBF;EACE,OFCO","file":"Navigation.css"}
