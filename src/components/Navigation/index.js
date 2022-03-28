@@ -32,9 +32,9 @@ function Navigation(props) {
 
         <Container>
           <ul className='navbar-nav ml-auto navitem-indent'>
-            <li className={`mx-2 nav-item ${aboutSelected && 'focus'}`}>
+            <li className='mx-2 nav-item'>
               <NavLink
-                className='navLink'
+                className={`navLink ${aboutSelected && 'navActive'}`}
                 to='/about'
                 onClick={() => {
                   categorySelected('About Me');
@@ -45,14 +45,14 @@ function Navigation(props) {
             </li>
             {categories.map(category => (
               // whenever you map over anything in JSX the outmost element must have a key attribute set to something unique
-              <li
-                className={`mx-1 'nav-item' ${
-                  currentCategory.name === category.name &&
-                  !aboutSelected &&
-                  'focus'
-                }`}
-                key={category.name}>
-                <NavLink className='navLink' to={`/${category.name}`}>
+              <li className='mx-1 nav-item' key={category.name}>
+                <NavLink
+                  className={`navLink ${
+                    currentCategory.name === category.name &&
+                    !aboutSelected &&
+                    'navActive'
+                  }`}
+                  to={`/${category.name}`}>
                   <span
                     onClick={() => {
                       setCurrentCategory(category);

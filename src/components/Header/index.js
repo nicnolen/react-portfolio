@@ -8,7 +8,7 @@ import Contact from '../Contact';
 
 function Header() {
   // conditionally render the Contact component
-  const [aboutSelected, setAboutSelected] = useState(false);
+  const [aboutSelected, setAboutSelected] = useState(true);
   // set categories
   const [categories] = useState([
     {

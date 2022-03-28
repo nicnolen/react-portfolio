@@ -11148,7 +11148,8 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-.navLink:focus {
+
+.navActive {
   color: #f3a847;
 }
 
