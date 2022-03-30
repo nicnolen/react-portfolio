@@ -69,7 +69,7 @@ code {
   color: #61dafb;
 }
 
-a {
+ul, a {
   text-decoration: none;
   list-style-type: none;
 }
