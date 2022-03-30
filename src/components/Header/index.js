@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { Route, Redirect, HashRouter } from 'react-router-dom';
+
 import Project from '../Portfolio';
 import About from '../About';
 import Navigation from '../Navigation';
@@ -42,13 +43,11 @@ function Header() {
         </nav>
 
         <div>
-          <Routes>
-            <Route exact path='/' element={<About />} />
-            <Route path='/about' element={<About />}></Route>
-            <Route path='/project' element={<Project />}></Route>
-            <Route path='/contact' element={<Contact />}></Route>
-            <Route path='/resume' element={<Resume />}></Route>
-          </Routes>
+          <Route exact path="/" render={() => <Redirect to="/about" />} />
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/project" element={<Project />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/resume" element={<Resume />}></Route>
         </div>
       </HashRouter>
       <div>
