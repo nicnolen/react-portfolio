@@ -43,6 +43,10 @@ code {
   color: #61dafb;
 }
 
+a, h3 {
+  text-decoration: none;
+}
+
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/portfolioImages/bg-img.jpg);
   background-size: cover;
@@ -51,7 +55,7 @@ code {
 
 .top-title {
   color: #d49828;
-  font-size: 4vh;
+  font-size: 8vh;
   text-align: center;
 }
 

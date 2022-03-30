@@ -85,18 +85,38 @@ a, h3 {
   text-align: center;
 }
 
-.professional-picture {
-  height: 30vh;
+.card {
+  max-width: 100%;
 }
 
-.about-intro {
-  color: #d2042d;
-  font-size: 6vh;
+.img-container {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.about-info {
-  color: #61dafb;
-  font-size: 3vh;
+.project {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-/*# sourceMappingURL=About.css.map */
+.content {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/portfolioImages/project-background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2vw;
+  color: #d49828;
+  font-size: 4vw;
+}
+
+.github-link {
+  background-color: #d49828;
+}
+
+.card-title {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=Portfolio.css.map */

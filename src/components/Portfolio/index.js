@@ -1,20 +1,21 @@
 import React from 'react';
 import projectInfo from './projects.json';
 import Project from '../Project';
+import '../../assets/css/Portfolio.css';
 
 function Portfolio() {
   const Wrapper = props => {
-    return <div className='wrapper'>{props.children}</div>;
+    return <div className="wrapper">{props.children}</div>;
   };
-  
+
   return (
-    <section className='container'>
-      <div className='project'>
-        <h2 className='top-title'>Professional Portfolio</h2>
+    <section className="container">
+      <div className="project">
+        <h2 className="top-title">Professional Portfolio</h2>
         <hr></hr>
       </div>
 
-      <Wrapper id='card-data'>
+      <Wrapper id="card-data">
         {projectInfo.map(project => (
           <Project
             key={project.id}
