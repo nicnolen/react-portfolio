@@ -86,18 +86,13 @@ a {
   text-align: center;
 }
 
-.professional-picture {
-  height: 30vh;
+.resume {
+  font-size: 5vh;
+  text-decoration: none;
 }
 
-.about-intro {
+.skills h3, h4 {
   color: #d2042d;
-  font-size: 6vh;
 }
 
-.about-info {
-  color: #61dafb;
-  font-size: 3vh;
-}
-
-/*# sourceMappingURL=About.css.map */
+/*# sourceMappingURL=Resume.css.map */

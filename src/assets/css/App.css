@@ -43,8 +43,9 @@ code {
   color: #61dafb;
 }
 
-a, h3 {
+a {
   text-decoration: none;
+  list-style-type: none;
 }
 
 .hero {

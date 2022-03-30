@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Route, Redirect, HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Project from '../Portfolio';
 import About from '../About';
@@ -31,7 +31,7 @@ function Header() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   return (
     <header>
-      <HashRouter>
+      <Router>
         <nav>
           <Navigation
             categories={categories}
@@ -43,13 +43,15 @@ function Header() {
         </nav>
 
         <div>
-          <Route exact path="/" render={() => <Redirect to="/about" />} />
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/project" element={<Project />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
-          <Route path="/resume" element={<Resume />}></Route>
+          <Routes>
+            <Route exact path="/" replace to="/about" />
+            <Route path="/about" element={<About />}></Route>
+            <Route path="/project" element={<Project />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/resume" element={<Resume />}></Route>
+          </Routes>
         </div>
-      </HashRouter>
+      </Router>
       <div>
         <About />
         <Project />
