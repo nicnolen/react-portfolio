@@ -22,7 +22,6 @@ function Navigation(props) {
     document.title = capitalizeFirstLetter(currentCategory.name);
   });
   return (
-    <div>
       <Navbar expand='lg' bg='dark' sticky='top'>
         <Container>
           <Navbar.Brand href='/'>
@@ -67,8 +66,6 @@ function Navigation(props) {
           </ul>
         </Container>
       </Navbar>
-      <br />
-    </div>
   );
 }
 

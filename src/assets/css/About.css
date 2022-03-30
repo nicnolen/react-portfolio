@@ -75,4 +75,24 @@ code {
   background-position: center;
 }
 
+.top-title {
+  color: #d49828;
+  font-size: 4vh;
+  text-align: center;
+}
+
+.professional-picture {
+  height: 30vh;
+}
+
+.about-intro {
+  color: #d2042d;
+  font-size: 6vh;
+}
+
+.about-info {
+  color: #61dafb;
+  font-size: 3vh;
+}
+
 /*# sourceMappingURL=About.css.map */
