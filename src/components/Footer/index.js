@@ -3,7 +3,7 @@ import '../../assets/css/Footer.css';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="bg-secondary">
       <a href="https://github.com/nicnolen?tab=repositories">
         <h4>GitHub</h4>
         <img

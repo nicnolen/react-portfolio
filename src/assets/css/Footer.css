@@ -101,7 +101,6 @@ footer a, div a, li a, a {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: rgba(170, 170, 170, 0.7);
 }
 
 footer h4 {

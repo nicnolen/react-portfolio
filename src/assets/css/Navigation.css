@@ -98,6 +98,10 @@ footer a, div a, li a, a {
   font-size: 4vh;
 }
 
+.navigation {
+  background-color: rgba(170, 170, 170, 0.7);
+}
+
 .navLink {
   color: #ffffff;
   text-decoration: none;
