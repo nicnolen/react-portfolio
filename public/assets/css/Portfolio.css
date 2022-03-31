@@ -69,21 +69,34 @@ code {
   color: #61dafb;
 }
 
-ul, a {
-  text-decoration: none;
+body {
+  min-height: 100vh;
+}
+
+ul {
   list-style-type: none;
+}
+
+footer a, div a, li a, a {
+  text-decoration: none;
 }
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/portfolioImages/bg-img.jpg);
   background-size: cover;
   background-position: center;
+  min-height: 100vh;
 }
 
 .top-title {
   color: #d49828;
-  font-size: 8vh;
+  font-size: 6vh;
   text-align: center;
+}
+
+.subtitle {
+  color: #9400d3;
+  font-size: 4vh;
 }
 
 .card {

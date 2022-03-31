@@ -69,6 +69,10 @@ code {
   color: #61dafb;
 }
 
+body {
+  min-height: 100vh;
+}
+
 ul {
   list-style-type: none;
 }
@@ -85,8 +89,13 @@ footer a, div a, li a, a {
 
 .top-title {
   color: #d49828;
-  font-size: 8vh;
+  font-size: 6vh;
   text-align: center;
+}
+
+.subtitle {
+  color: #9400d3;
+  font-size: 4vh;
 }
 
 .resume {
@@ -94,8 +103,17 @@ footer a, div a, li a, a {
   text-decoration: none;
 }
 
-.project-skills {
+.wrapper h4 {
   color: #d2042d;
+  font-size: 2.5vh;
+}
+
+li, li a, div a {
+  color: #61dafb;
+}
+
+ul, .wrapper li a, .download-resume {
+  font-size: 2vh;
 }
 
 /*# sourceMappingURL=Resume.css.map */

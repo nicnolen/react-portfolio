@@ -99,14 +99,8 @@ footer a, div a, li a, a {
   font-size: 4vh;
 }
 
-footer {
-  display: flex;
-  justify-content: space-around;
-  background-color: rgba(170, 170, 170, 0.7);
+body {
+  min-height: 100vh;
 }
 
-footer h4 {
-  color: darkgreen;
-}
-
-/*# sourceMappingURL=Footer.css.map */
+/*# sourceMappingURL=Contact.css.map */

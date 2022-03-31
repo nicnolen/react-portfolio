@@ -11,17 +11,17 @@ function Resume() {
     return <div className='wrapper'>{props.children}</div>;
   };
   return (
-    <section className='container'>
+    <section className='container pb-5'>
       <h2 className='top-title'>Resume</h2>
-      <div>
+      <div className='download-resume'>
         <a href={resume} target='_blank' rel='noreferrer'>
-          Download Resume
+          <h3 className="pb-5">Download Resume</h3>
         </a>
       </div>
       <div>
-        <h3>Skills</h3>
+        <h3 className="subtitle text-center pb-4">Skills</h3>
         <Wrapper id='card-data'>
-          <h4>Front End Skills</h4>
+          <h4 className="pb-3">Front End Skills (Click on a skill for more information)</h4>
           {skillsInfo.map((skill, i) => (
             <FrontendSkills
               key={i}
@@ -30,7 +30,7 @@ function Resume() {
               documentation={skill.documentation}
             />
           ))}
-          <h4>Back End Skills</h4>
+          <h4 className="pb-3">Back End Skills (Click on a skill for more information)</h4>
           {skillsInfo.map((skill, i) => (
             <BackendSkills
               key={i}
@@ -39,7 +39,7 @@ function Resume() {
               documentation={skill.documentation}
             />
           ))}
-          <h4>Technical Skills</h4>
+          <h4 className="pb-3">Technical Skills</h4>
           {skillsInfo.map((skill, i) => (
             <TechnicalSkills
               key={i}

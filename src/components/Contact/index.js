@@ -1,6 +1,7 @@
 import { send } from 'emailjs-com';
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import '../../assets/css/Contact.css';
 
 function ContactForm() {
   const [toSend, setToSend] = useState({
@@ -43,30 +44,24 @@ function ContactForm() {
     e.preventDefault();
     send('service_k06hlfp', 'template_iq5w2c2', toSend, 'Rau85KwJyF-kPthpC')
       .then(response => {
-        console.log('SUCCESS!', response.status, response.text);
+        console.info('SUCCESS!', response.status, response.text);
       })
       .catch(err => {
-        console.log('FAILED...', err);
+        console.error('FAILED...', err);
       });
   };
-  // if (!errorMessage) {
-  //   console.info('Form', toSend);
-  //   return true;
-  // } else {
-  //   console.error(errorMessage);
-  //   return false;
-  // }
 
   return (
     <section>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="from_name">From:</label>
+          <label htmlFor="from_name" className="pr-2">From:</label>
           <input
             type="text"
             name="from_name"
             value={from_name}
             onChange={handleChange}
+            className="mb-2"
           />
         </div>
         <div>
@@ -76,6 +71,7 @@ function ContactForm() {
             name="to_name"
             value={to_name}
             onChange={handleChange}
+            className="mb-2"
           />
         </div>
         <div>
@@ -85,6 +81,7 @@ function ContactForm() {
             name="reply_to"
             value={reply_to}
             onChange={handleChange}
+            className="mb-2"
           />
         </div>
         <div>
@@ -94,6 +91,7 @@ function ContactForm() {
             rows="5"
             value={message}
             onChange={handleChange}
+            className="mb-2"
           />
           {errorMessage && (
             <div>
@@ -101,7 +99,7 @@ function ContactForm() {
             </div>
           )}
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="btn btn-info">Submit</button>
       </form>
     </section>
   );

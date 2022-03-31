@@ -1,0 +1,42 @@
+@import './variables'
+@import './index'
+@import './App'
+
+form
+  min-height: 82.9vh
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+form label 
+  font-size: 1.2rem
+  margin: 0.625rem 0 0.25rem
+  color: $red
+
+form label,
+form input,
+form textarea 
+  display: block
+
+input 
+  font-size: 1rem
+  padding: 0.25rem
+  outline: none
+  border-radius: 3px
+  transition: box-shadow 0.2s
+  border-radius: 10px
+
+input:focus 
+  border: 1px solid var(--secondary)
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5)
+
+textarea 
+  width: 600px
+  height: 120px
+  border: 3px solid #cccccc
+  padding: 5px
+  border-radius: 10px
+
+button
+  width: 37rem

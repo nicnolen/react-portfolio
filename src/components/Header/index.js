@@ -32,15 +32,13 @@ function Header() {
   return (
     <header>
       <Router>
-        <nav>
-          <Navigation
-            categories={categories}
-            setCurrentCategory={setCurrentCategory}
-            currentCategory={currentCategory}
-            aboutSelected={aboutSelected}
-            setAboutSelected={setAboutSelected}
-          />
-        </nav>
+        <Navigation
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+          aboutSelected={aboutSelected}
+          setAboutSelected={setAboutSelected}
+        />
 
         <div>
           <Routes>
