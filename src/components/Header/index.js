@@ -44,7 +44,7 @@ function Header() {
 
         <div>
           <Routes>
-            <Route exact path="/" replace to="/about" />
+            <Route exact path="/" replace element={<About />} />
             <Route path="/about" element={<About />}></Route>
             <Route path="/project" element={<Project />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
@@ -52,12 +52,6 @@ function Header() {
           </Routes>
         </div>
       </Router>
-      <div>
-        <About />
-        <Project />
-        <Resume />
-        <Contact />
-      </div>
     </header>
   );
 }
