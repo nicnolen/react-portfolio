@@ -5,8 +5,8 @@ import '../../assets/css/Contact.css';
 
 function ContactForm() {
   const [toSend, setToSend] = useState({
-    from_name: '',
-    to_name: '',
+    Email: '',
+    to_name: 'nicnolen@ymail.com',
     message: '',
     reply_to: '',
   });
@@ -99,7 +99,7 @@ function ContactForm() {
             </div>
           )}
         </div>
-        <button type="submit" className="btn btn-info">Submit</button>
+        <button type="submit" className="btn btn-info mb-5">Submit</button>
       </form>
     </section>
   );

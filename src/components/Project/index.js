@@ -8,17 +8,14 @@ function Project({ title, description, image, github, deployed, tools }) {
           <img src={image} alt={description} className="project" />
         </a>
       </figure>
-      <div className="content">
+      <div className="content d-flex justify-content-between align-items-center">
         <span className="github-link">
           <a href={github} title={description}>
-            <img
-              src="../../assets/images/icons/github.svg"
-              alt="GitHub Repo"
-            />
+            <img src="../../assets/images/icons/github.svg" alt="GitHub Repo" />
             <h3 className="card-title">{title}</h3>
           </a>
         </span>
-        <h4 className="project-skills">{tools}</h4>
+        <h4 className="project-skills fs-4 pb-1 px-1">{tools}</h4>
       </div>
     </div>
   );

@@ -116,16 +116,17 @@ footer a, div a, li a, a {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/portfolioImages/project-background.jpg);
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-right: 2vw;
   color: #d49828;
   font-size: 4vw;
 }
 
-.github-link {
+.github-link, .project-skills {
   background-color: #d49828;
+}
+
+.project-skills {
+  border-radius: 5px;
 }
 
 .card-title {

@@ -111,4 +111,8 @@ footer a, div a, li a, a {
   color: #f3a847;
 }
 
+.navbar {
+  height: 10vh;
+}
+
 /*# sourceMappingURL=Navigation.css.map */
