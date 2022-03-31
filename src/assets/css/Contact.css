@@ -144,4 +144,9 @@ button {
   width: 37rem;
 }
 
+.error {
+  background-color: #d49828;
+  color: #d2042d;
+}
+
 /*# sourceMappingURL=Contact.css.map */

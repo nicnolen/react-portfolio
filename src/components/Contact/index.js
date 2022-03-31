@@ -5,13 +5,13 @@ import '../../assets/css/Contact.css';
 
 function ContactForm() {
   const [toSend, setToSend] = useState({
-    Email: '',
+    from_name: '',
     to_name: 'nicnolen@ymail.com',
     message: '',
-    reply_to: '',
+    name: '',
   });
   const [errorMessage, setErrorMessage] = useState('');
-  const { from_name, to_name, message, reply_to } = toSend;
+  const { name, from_name, to_name, message } = toSend;
 
   // Handle change function
   const handleChange = e => {
@@ -55,32 +55,34 @@ function ContactForm() {
     <section>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="from_name" className="pr-2">From:</label>
-          <input
-            type="text"
-            name="from_name"
-            value={from_name}
-            onChange={handleChange}
-            className="mb-2"
-          />
-        </div>
-        <div>
           <label htmlFor="to_name">To:</label>
           <input
             type="text"
             name="to_name"
-            value={to_name}
-            onChange={handleChange}
+            defaultValue={to_name}
+            onBlur={handleChange}
             className="mb-2"
           />
         </div>
         <div>
-          <label htmlFor="email">Reply To:</label>
+          <label htmlFor="from_name" className="pr-2">
+            From:
+          </label>
           <input
             type="text"
-            name="reply_to"
-            value={reply_to}
-            onChange={handleChange}
+            name="from_name"
+            defaultValue={from_name}
+            onBlur={handleChange}
+            className="mb-2"
+          />
+        </div>
+        <div>
+          <label htmlFor="name">Name:</label>
+          <input
+            type="text"
+            name="name"
+            defaultValue={name}
+            onBlur={handleChange}
             className="mb-2"
           />
         </div>
@@ -89,17 +91,19 @@ function ContactForm() {
           <textarea
             name="message"
             rows="5"
-            value={message}
-            onChange={handleChange}
+            defaultValue={message}
+            onBlur={handleChange}
             className="mb-2"
           />
           {errorMessage && (
-            <div>
+            <div className="error">
               <p className="errorText">{errorMessage}</p>
             </div>
           )}
         </div>
-        <button type="submit" className="btn btn-info mb-5">Submit</button>
+        <button type="submit" className="btn btn-info mb-5">
+          Submit
+        </button>
       </form>
     </section>
   );
