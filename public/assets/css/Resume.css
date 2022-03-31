@@ -86,13 +86,13 @@ ul, a {
   text-align: center;
 }
 
-.navLink {
-  color: #ffffff;
+.resume {
+  font-size: 5vh;
   text-decoration: none;
 }
 
-.navActive {
-  color: #f3a847;
+.skills h3, h4 {
+  color: #d2042d;
 }
 
-/*# sourceMappingURL=Navigation.css.map */
+/*# sourceMappingURL=Resume.css.map */

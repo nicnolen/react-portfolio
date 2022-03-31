@@ -86,13 +86,18 @@ ul, a {
   text-align: center;
 }
 
-.navLink {
-  color: #ffffff;
-  text-decoration: none;
+.professional-picture {
+  height: 30vh;
 }
 
-.navActive {
-  color: #f3a847;
+.about-intro {
+  color: #d2042d;
+  font-size: 6vh;
 }
 
-/*# sourceMappingURL=Navigation.css.map */
+.about-info {
+  color: #61dafb;
+  font-size: 3vh;
+}
+
+/*# sourceMappingURL=About.css.map */

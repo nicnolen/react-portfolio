@@ -1,7 +1,11 @@
 /* PRIMARY COLORS */
 /* BACKGROUND COLORS */
+/* IMAGE FOLDER PATH */
+/* FADE IMAGE */
 /* PRIMARY COLORS */
 /* BACKGROUND COLORS */
+/* IMAGE FOLDER PATH */
+/* FADE IMAGE */
 /* Universal Selectors */
 * {
   margin: 0;
@@ -37,6 +41,23 @@ code {
 
 .App-link {
   color: #61dafb;
+}
+
+ul, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/portfolioImages/bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.top-title {
+  color: #d49828;
+  font-size: 8vh;
+  text-align: center;
 }
 
 /*# sourceMappingURL=App.css.map */
