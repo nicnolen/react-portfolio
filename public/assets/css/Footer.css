@@ -86,4 +86,14 @@ ul, a {
   text-align: center;
 }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(170, 170, 170, 0.7);
+}
+
+.link-title {
+  color: #aaaaaa;
+}
+
 /*# sourceMappingURL=Footer.css.map */

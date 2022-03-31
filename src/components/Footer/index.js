@@ -1,8 +1,9 @@
 import React from 'react';
+import '../../assets/css/Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer d-flex justify-content-space-evenly">
+    <footer className="footer">
       <a href="https://github.com/nicnolen?tab=repositories">
         <h4>GitHub</h4>
         <img
