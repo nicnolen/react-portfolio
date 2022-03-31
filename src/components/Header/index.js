@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Routes, Route, HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import Project from '../Portfolio';
 import About from '../About';
 import Navigation from '../Navigation';
@@ -30,33 +31,25 @@ function Header() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
   return (
     <header>
-      <HashRouter>
-        <nav>
-          <Navigation
-            categories={categories}
-            setCurrentCategory={setCurrentCategory}
-            currentCategory={currentCategory}
-            aboutSelected={aboutSelected}
-            setAboutSelected={setAboutSelected}
-          />
-        </nav>
+      <Router>
+        <Navigation
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+          aboutSelected={aboutSelected}
+          setAboutSelected={setAboutSelected}
+        />
 
         <div>
           <Routes>
-            <Route exact path='/' element={<About />} />
-            <Route path='/about' element={<About />}></Route>
-            <Route path='/project' element={<Project />}></Route>
-            <Route path='/contact' element={<Contact />}></Route>
-            <Route path='/resume' element={<Resume />}></Route>
+            <Route exact path="/" replace element={<About />} />
+            <Route path="/about" element={<About />}></Route>
+            <Route path="/project" element={<Project />}></Route>
+            <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/resume" element={<Resume />}></Route>
           </Routes>
         </div>
-      </HashRouter>
-      <div>
-        <About />
-        <Project />
-        <Resume />
-        <Contact />
-      </div>
+      </Router>
     </header>
   );
 }

@@ -22,19 +22,18 @@ function Navigation(props) {
     document.title = capitalizeFirstLetter(currentCategory.name);
   });
   return (
-    <div>
-      <Navbar expand='lg' bg='dark' sticky='top'>
-        <Container>
+      <Navbar expand='lg' bg='secondary' sticky='top'>
+        <Container className="justify-content-start">
           <Navbar.Brand href='/'>
-            <h1 className='text-light nav-title-font'>Nicholas Nolen</h1>
+            <h1 className='text-light nav-title-font mx-4'>Nicholas Nolen</h1>
           </Navbar.Brand>
         </Container>
 
-        <Container>
-          <ul className='navbar-nav ml-auto navitem-indent'>
+        <Container className="justify-content-end">
+          <ul className='navbar-nav mx-4 navitem-indent'>
             <li className='mx-2 nav-item'>
               <NavLink
-                className={`navLink ${aboutSelected && 'navActive'}`}
+                className={`navLink mx-2 ${aboutSelected && 'navActive'}`}
                 to='/about'
                 onClick={() => {
                   categorySelected('About Me');
@@ -47,7 +46,7 @@ function Navigation(props) {
               // whenever you map over anything in JSX the outmost element must have a key attribute set to something unique
               <li className='mx-1 nav-item' key={category.name}>
                 <NavLink
-                  className={`navLink ${
+                  className={`navLink mx-2 ${
                     currentCategory.name === category.name &&
                     !aboutSelected &&
                     'navActive'
@@ -67,8 +66,6 @@ function Navigation(props) {
           </ul>
         </Container>
       </Navbar>
-      <br />
-    </div>
   );
 }
 
