@@ -11,7 +11,7 @@ function About() {
       <figure className="d-flex justify-content-center mb-5">
         <img
           className="professional-picture"
-          src="../../../public/assets/images/portfolioImages/professional-picture.png"
+          src="http://nicnolen.github.io/react-portfolio/assets/images/portfolioImages/professional-picture.png"
           alt="Professional Headshot"></img>
       </figure>
 

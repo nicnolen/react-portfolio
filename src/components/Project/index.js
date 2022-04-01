@@ -12,7 +12,7 @@ function Project({ title, description, image, github, deployed, tools }) {
         <span className="github-link">
           <a href={github} title={description}>
             <img
-              src="../../../public/assets/images/icons/github.svg"
+              src="http://nicnolen.github.io/react-portfolio/assets/images/icons/github.svg"
               alt="GitHub Repo"
             />
             <h3 className="card-title">{title}</h3>
