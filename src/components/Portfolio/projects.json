@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Travel Lovers",
     "description": "Professional portfolio to showcase skills to employers",
-    "image": "../../assets/images/projectImages/travel-lovers.png",
+    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/travel-lovers.png",
     "github": "https://github.com/nicnolen/Travel-Lovers",
     "deployed": "https://travel--lovers.herokuapp.com/",
     "tools": "Handlebars.js, Sequelize, SASS, bcrypt"
@@ -12,7 +12,7 @@
     "id": "2",
     "title": "Watchopedia",
     "description": "A website that allows a user to easily search for a movie, TV show, or actor information through API requests",
-    "image": "../../assets/images/projectImages/watchopedia-homepage.png",
+    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/watchopedia-homepage.png",
     "github": "https://github.com/nicnolen/watchopedia",
     "deployed": "https://nicnolen.github.io/watchopedia/",
     "tools": "HTML/CSS/Bulma/JavaScript"
@@ -21,7 +21,7 @@
     "id": "3",
     "title": "Just Tech News",
     "description": "This app allows a user to post an article from another source and other users can vote or comment on the post.",
-    "image": "../../assets/images/projectImages/just-tech-news-dashboard.png",
+    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/just-tech-news-dashboard.png",
     "github": "https://github.com/nicnolen/just-tech-news",
     "deployed": "https://just--tech--news.herokuapp.com/",
     "tools": "MySQL/Handlebars.js/ORM/Express.js"
@@ -30,7 +30,7 @@
     "id": "4",
     "title": "Team Profile Generator",
     "description": "An application that takes in employee information and generates an HTML webpage displaying summaries for each person.",
-    "image": "../../assets/images/projectImages/team-profile-generator-homepage.png",
+    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/team-profile-generator-homepage.png",
     "github": "https://github.com/nicnolen/team-profile-generator",
     "deployed": "file:///C:/Users/nicno/OneDrive/Coding%20Bootcamp/Classwork/Challenges/team-profile-generator/dist/index.html",
     "tools": "Node.js/Inquirer/TDD/OOP"
@@ -39,7 +39,7 @@
     "id": "5",
     "title": "Professional README.md",
     "description": "An easy way to create a professional README.md using node.js and it's npm packages",
-    "image": "../../assets/images/projectImages/README-homepage.png",
+    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/README-homepage.png",
     "github": "https://github.com/nicnolen/README-generator",
     "deployed": "https://github.com/nicnolen/README-generator/tree/main/Develop",
     "tools": "JavaScript/Node.js/Inquirer/OOP"
@@ -48,7 +48,7 @@
     "id": "6",
     "title": "Weather Dashboard",
     "description": "A weather dashboard that dynamically displays the current weather and five day forecast for searched cities",
-    "image": "../../assets/images/projectImages/weather-homepage.png",
+    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/weather-homepage.png",
     "github": "https://github.com/nicnolen/weather-dashboard",
     "deployed": "https://nicnolen.github.io/weather-dashboard/",
     "tools": "HTML/CSS/Bootstrap/JavaScript/moments.js"

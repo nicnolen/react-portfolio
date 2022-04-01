@@ -88,7 +88,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Usage Instructions
 
-To use, follow this link
+To use, follow the link below: 
+https://nicnolen.github.io/react-portfolio/
 
 ## License
 

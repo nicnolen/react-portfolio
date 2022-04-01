@@ -11,7 +11,10 @@ function Project({ title, description, image, github, deployed, tools }) {
       <div className="content d-flex justify-content-between align-items-center">
         <span className="github-link">
           <a href={github} title={description}>
-            <img src="../../assets/images/icons/github.svg" alt="GitHub Repo" />
+            <img
+              src="http://nicnolen.github.io/react-portfolio/assets/images/icons/github.svg"
+              alt="GitHub Repo"
+            />
             <h3 className="card-title">{title}</h3>
           </a>
         </span>
