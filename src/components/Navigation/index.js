@@ -24,7 +24,7 @@ function Navigation(props) {
   return (
       <Navbar expand='lg' bg='secondary' sticky='top'>
         <Container className="justify-content-start">
-          <Navbar.Brand href='/'>
+          <Navbar.Brand href='/react-portfolio/'>
             <h1 className='text-light nav-title-font mx-4'>Nicholas Nolen</h1>
           </Navbar.Brand>
         </Container>
