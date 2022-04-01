@@ -54,6 +54,7 @@ function ContactForm() {
   return (
     <section>
       <form onSubmit={handleSubmit}>
+        <h2 className="top-title mt-5 mb-3">Contact Me</h2>
         <div>
           <label htmlFor="to_name">To:</label>
           <input
