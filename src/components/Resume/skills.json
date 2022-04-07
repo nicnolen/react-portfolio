@@ -65,6 +65,11 @@
     "documentation": "https://reactjs.org/docs/getting-started.html"
   },
   {
+    "name": "React Router",
+    "category": "backend",
+    "documentation": "https://reactrouter.com/docs/en/v6"
+  },
+  {
     "name": "Webpack",
     "category": "frontend",
     "documentation": "https://webpack.js.org/concepts/"
@@ -145,6 +150,21 @@
     "documentation": "https://www.mongodb.com/docs/atlas/getting-started/"
   },
   {
+    "name": "IndexedDB",
+    "category": "backend",
+    "documentation": "https://javascript.info/indexeddb"
+  },
+  {
+    "name": "Apollo",
+    "category": "backend",
+    "documentation": "https://www.apollographql.com/docs/"
+  },
+  {
+    "name": "GraphQL",
+    "category": "backend",
+    "documentation": "https://graphql.org/learn/"
+  },
+  {
     "name": "Inquirer",
     "category": "backend",
     "documentation": "https://www.npmjs.com/package/inquirer#documentation"
@@ -208,6 +228,11 @@
     "name": "ORM",
     "category": "backend",
     "documentation": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"
+  },
+  {
+    "name": "ODM",
+    "category": "backend",
+    "documentation": "https://www.tutorialspoint.com/phalcon/phalcon_object_document_mapper.htm"
   },
   {
     "name": "ODM",
