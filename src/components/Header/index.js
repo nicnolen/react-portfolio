@@ -42,7 +42,7 @@ function Header() {
 
         <div>
           <Routes>
-            <Route exact path="/" replace element={<About />} />
+            <Route path="/react-portfolio/" element={<About />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/project" element={<Project />}></Route>
             <Route path="/contact" element={<Contact />}></Route>

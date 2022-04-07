@@ -6,7 +6,6 @@ function About() {
   return (
     <section className="container">
       <h2 className="top-title mt-5 mb-3">About Me</h2>
-      <hr></hr>
 
       <figure className="d-flex justify-content-center mb-5">
         <img
@@ -15,9 +14,10 @@ function About() {
           alt="Professional Headshot"></img>
       </figure>
 
-      
-        <h3 className="about-intro text-center mb-4">Hello, I'm Nicholas Nolen</h3>
-        <div className="about-info text-center mb-5">
+      <h3 className="about-intro text-center mb-4">
+        Hello, I'm Nicholas Nolen
+      </h3>
+      <div className="about-info text-center mb-5">
         <p>
           I am a Full Stack Web Developer leveraging a business background to
           build sites oriented towards mobile responsiveness.
