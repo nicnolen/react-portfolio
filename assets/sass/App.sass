@@ -17,20 +17,20 @@
 .App-link 
   color: $light-blue
 
-body
+#root
   min-height: 100vh
+  position: relative
+
+body
+  background: $fadeImage, url(#{$portfolioImagePath}/bg-img.jpg)
+  background-size: cover
+  background-position: center
 
 ul
   list-style-type: none
 
 footer a, div a, li a, a
   text-decoration: none 
-
-.hero 
-  background: $fadeImage, url(#{$portfolioImagePath}/bg-img.jpg)
-  background-size: cover
-  background-position: center
-  min-height: 100vh
   
 .top-title 
   color: $gold
