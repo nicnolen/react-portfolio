@@ -70,7 +70,13 @@ code {
 }
 
 body {
-  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/portfolioImages/bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section {
+  position: relative;
 }
 
 ul {
@@ -79,12 +85,6 @@ ul {
 
 footer a, div a, li a, a {
   text-decoration: none;
-}
-
-.hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/portfolioImages/bg-img.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 .top-title {

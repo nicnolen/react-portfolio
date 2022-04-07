@@ -52,10 +52,10 @@ function ContactForm() {
   };
 
   return (
-    <section>
+    <section className="container" style={{ maxWidth: '660px' }}>
+      <h2 className="top-title mt-5 mb-3">Contact Me</h2>
       <form onSubmit={handleSubmit}>
-        <h2 className="top-title mt-5 mb-3">Contact Me</h2>
-        <div>
+        <div style={{ width: '75%', margin: '0 auto' }}>
           <label htmlFor="to_name">To:</label>
           <input
             type="text"
@@ -65,7 +65,7 @@ function ContactForm() {
             className="mb-2"
           />
         </div>
-        <div>
+        <div style={{ width: '75%', margin: '0 auto' }}>
           <label htmlFor="from_name" className="pr-2">
             From:
           </label>
@@ -77,7 +77,7 @@ function ContactForm() {
             className="mb-2"
           />
         </div>
-        <div>
+        <div style={{ width: '75%', margin: '0 auto' }}>
           <label htmlFor="name">Name:</label>
           <input
             type="text"
@@ -87,7 +87,7 @@ function ContactForm() {
             className="mb-2"
           />
         </div>
-        <div>
+        <div style={{ width: '75%', margin: '0 auto' }}>
           <label htmlFor="message">Message:</label>
           <textarea
             name="message"
@@ -102,7 +102,10 @@ function ContactForm() {
             </div>
           )}
         </div>
-        <button type="submit" className="btn btn-info mb-5">
+        <button
+          type="submit"
+          className="btn btn-info mb-5"
+          style={{ width: '75%', margin: '0 auto' }}>
           Submit
         </button>
       </form>
