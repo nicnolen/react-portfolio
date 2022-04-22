@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <header>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-secondary sticky-top"
+    >
+      <div
+        class="justify-content-start container"
+      >
+        <a
+          class="navbar-brand"
+          href="/react-portfolio/"
+        >
+          <h1
+            class="text-light nav-title-font mx-4"
+          >
+            Nicholas Nolen
+          </h1>
+        </a>
+      </div>
+      <div
+        class="justify-content-end container"
+      >
+        <ul
+          class="navbar-nav mx-4 navitem-indent"
+        >
+          <li
+            class="mx-2 nav-item"
+          >
+            <a
+              class="navLink mx-2 navActive"
+              href="/about"
+            >
+              <span>
+                About Me
+              </span>
+            </a>
+          </li>
+          <li
+            class="mx-1 nav-item"
+          >
+            <a
+              class="navLink mx-2 false"
+              href="/project"
+            >
+              <span>
+                Project
+              </span>
+            </a>
+          </li>
+          <li
+            class="mx-1 nav-item"
+          >
+            <a
+              class="navLink mx-2 false"
+              href="/contact"
+            >
+              <span>
+                Contact
+              </span>
+            </a>
+          </li>
+          <li
+            class="mx-1 nav-item"
+          >
+            <a
+              class="navLink mx-2 false"
+              href="/resume"
+            >
+              <span>
+                Resume
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div />
+  </header>
+</DocumentFragment>
+`;
