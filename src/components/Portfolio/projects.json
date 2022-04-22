@@ -1,6 +1,15 @@
 [
   {
     "id": "1",
+    "title": "Hawker",
+    "description": "A marketplace for buying and selling items",
+    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/hawker-home.png",
+    "github": "https://github.com/nicnolen/Hawker",
+    "deployed": "https://texas-hawker.herokuapp.com/",
+    "tools": "JavaScript/Node.js/Inquirer/OOP"
+  },
+  {
+    "id": "2",
     "title": "Travel Lovers",
     "description": "Professional portfolio to showcase skills to employers",
     "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/travel-lovers.png",
@@ -9,7 +18,7 @@
     "tools": "Handlebars.js, Sequelize, SASS, bcrypt"
   },
   {
-    "id": "2",
+    "id": "3",
     "title": "Watchopedia",
     "description": "A website that allows a user to easily search for a movie, TV show, or actor information through API requests",
     "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/watchopedia-homepage.png",
@@ -18,31 +27,22 @@
     "tools": "HTML/CSS/Bulma/JavaScript"
   },
   {
-    "id": "3",
+    "id": "4",
+    "title": "Shop Shop",
+    "description": "E-commerce application that sells some of the finest items available on the internet.",
+    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/shop-shop.png",
+    "github": "https://github.com/nicnolen/shop-shop",
+    "deployed": "https://dry-shelf-71701.herokuapp.com/",
+    "tools": "MongoDB, Express.js, React.js, Node.js, TDD"
+  },
+  {
+    "id": "5",
     "title": "Just Tech News",
     "description": "This app allows a user to post an article from another source and other users can vote or comment on the post.",
     "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/just-tech-news-dashboard.png",
     "github": "https://github.com/nicnolen/just-tech-news",
     "deployed": "https://just--tech--news.herokuapp.com/",
     "tools": "MySQL/Handlebars.js/ORM/Express.js"
-  },
-  {
-    "id": "4",
-    "title": "Team Profile Generator",
-    "description": "An application that takes in employee information and generates an HTML webpage displaying summaries for each person.",
-    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/team-profile-generator-homepage.png",
-    "github": "https://github.com/nicnolen/team-profile-generator",
-    "deployed": "file:///C:/Users/nicno/OneDrive/Coding%20Bootcamp/Classwork/Challenges/team-profile-generator/dist/index.html",
-    "tools": "Node.js/Inquirer/TDD/OOP"
-  },
-  {
-    "id": "5",
-    "title": "Hawker",
-    "description": "A marketplace for buying and selling items",
-    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/hawker-home.png",
-    "github": "https://github.com/nicnolen/Hawker",
-    "deployed": "https://texas-hawker.herokuapp.com/",
-    "tools": "JavaScript/Node.js/Inquirer/OOP"
   },
   {
     "id": "6",
