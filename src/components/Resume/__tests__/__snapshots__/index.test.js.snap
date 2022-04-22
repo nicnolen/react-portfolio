@@ -1,0 +1,1047 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <section
+    class="container pb-5"
+  >
+    <h2
+      class="top-title"
+    >
+      Resume
+    </h2>
+    <div
+      class="download-resume"
+    >
+      <a
+        href="resume.pdf"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <h3
+          class="pb-5"
+        >
+          Download Resume
+        </h3>
+      </a>
+    </div>
+    <div>
+      <h3
+        class="subtitle text-center pb-4"
+      >
+        Skills
+      </h3>
+      <div
+        class="wrapper"
+      >
+        <h4
+          class="pb-3"
+        >
+          Front End Skills (Click on a skill for more information)
+        </h4>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://git-scm.com/docs"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Git Bash
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://docs.github.com/en/get-started/quickstart/set-up-git"
+                rel="noreferrer"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.markdownguide.org/basic-syntax"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Markdown
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.w3schools.com/html/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                HTML
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.w3schools.com/css/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                CSS
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://sass-lang.com/documentation"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Sass
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://getbootstrap.com/docs/4.1/getting-started/introduction/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Bootstrap
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://bulma.io/documentation/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Bulma
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://iconicwp.com/docs/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Iconic
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://fontawesome.com/docs/web/setup/get-started"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Font Awesome
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.w3schools.com/js/default.asp"
+                rel="noreferrer"
+                target="_blank"
+              >
+                JavaScript
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.json.org/json-en.html"
+                rel="noreferrer"
+                target="_blank"
+              >
+                JSON
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://reactjs.org/docs/getting-started.html"
+                rel="noreferrer"
+                target="_blank"
+              >
+                React.js
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div />
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://webpack.js.org/concepts/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Webpack
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://handlebarsjs.com/guide/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Handlebars.js
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://api.jquery.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                jQuery
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://momentjs.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Moment.js
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://devdocs.io/bash/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Shell Script
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://eslint.org/docs/user-guide/configuring/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                ESLint
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://prettier.io/docs/en/options.html"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Prettier
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://cloudinary.com/documentation"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Cloudinary
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://helpx.adobe.com/photoshop/user-guide.html"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Adobe Photoshop
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Glossary/SPA"
+                rel="noreferrer"
+                target="_blank"
+              >
+                SPAs
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://dev.mobify.com/v2.x/how-to-guides/categories/state-management/managing-global-state"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Global State
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <h4
+          class="pb-3"
+        >
+          Back End Skills (Click on a skill for more information)
+        </h4>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://reactrouter.com/docs/en/v6"
+                rel="noreferrer"
+                target="_blank"
+              >
+                React Router
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://docs.github.com/en/actions/quickstart"
+                rel="noreferrer"
+                target="_blank"
+              >
+                GitHub Actions
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://yaml.org/spec/1.2.2/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                YAML
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://devcenter.heroku.com/categories/reference"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Heroku
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://nodejs.org/en/docs/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Node.js
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://expressjs.com/en/5x/api.html"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Express.js
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://dev.mysql.com/doc/refman/8.0/en/dynindex-statement.html"
+                rel="noreferrer"
+                target="_blank"
+              >
+                MySQL
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://sequelize.org/v7/manual/getting-started.html"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Sequelize
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.jawsdb.com/docs/#mysql"
+                rel="noreferrer"
+                target="_blank"
+              >
+                JawsDB
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.mongodb.com/docs/manual/tutorial/getting-started/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                MongoDB
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://mongoosejs.com/docs/api.html"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Mongoose
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.mongodb.com/docs/atlas/getting-started/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                MongoDB Atlas
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://javascript.info/indexeddb"
+                rel="noreferrer"
+                target="_blank"
+              >
+                IndexedDB
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.apollographql.com/docs/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Apollo
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://graphql.org/learn/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                GraphQL
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://stripe.com/docs"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Stripe
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://fakerjs.dev/guide/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Faker.js
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.npmjs.com/package/inquirer#documentation"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Inquirer
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.npmjs.com/package/sessionstorage"
+                rel="noreferrer"
+                target="_blank"
+              >
+                sessionstorage
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://jwt.io/introduction"
+                rel="noreferrer"
+                target="_blank"
+              >
+                JSON Web Token (JWT)
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.npmjs.com/package/bcrypt"
+                rel="noreferrer"
+                target="_blank"
+              >
+                bcrypt
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.npmjs.com/package/dotenv"
+                rel="noreferrer"
+                target="_blank"
+              >
+                dotenv
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://jestjs.io/docs/getting-started"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Jest
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://docs.insomnia.rest/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Insomnia
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://benchmarkjs.com/docs"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Benchmark.js
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
+                rel="noreferrer"
+                target="_blank"
+              >
+                PWAs
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Test-driven_development"
+                rel="noreferrer"
+                target="_blank"
+              >
+                TDD
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming"
+                rel="noreferrer"
+                target="_blank"
+              >
+                OOP
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Glossary/MVC"
+                rel="noreferrer"
+                target="_blank"
+              >
+                MVC
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Glossary/REST"
+                rel="noreferrer"
+                target="_blank"
+              >
+                REST APIs
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping"
+                rel="noreferrer"
+                target="_blank"
+              >
+                ORM
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.tutorialspoint.com/phalcon/phalcon_object_document_mapper.htm"
+                rel="noreferrer"
+                target="_blank"
+              >
+                ODM
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+          <ul>
+            <li>
+              <a
+                href="https://www.tutorialspoint.com/phalcon/phalcon_object_document_mapper.htm"
+                rel="noreferrer"
+                target="_blank"
+              >
+                ODM
+              </a>
+            </li>
+          </ul>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <div>
+           
+        </div>
+        <h4
+          class="pb-3"
+        >
+          Technical Skills
+        </h4>
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div />
+        <div>
+          <ul>
+            <li>
+              Communication
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Time Management
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Problem Solving
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Group Work
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Self-Starter
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
