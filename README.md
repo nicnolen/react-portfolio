@@ -8,12 +8,11 @@
 - [Getting Started with Create React App](#getting-started-with-create-react-app)
 - [Usage Instructions](#usage-instructions)
 - [License Section](#license)
-
 - [Contact Me](#contact-me)
 
 ## Description
 
-A professional portfolio to showcase my work to employeers
+A professional portfolio to showcase my work to employeers.
 
 ## Getting Started with Create React App
 
@@ -88,8 +87,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Usage Instructions
 
-To use, follow the link below: 
-https://nicnolen.github.io/react-portfolio/
+To use, follow this link to my [portfolio](https://nicnolen.github.io/react-portfolio/)
 
 ## License
 
