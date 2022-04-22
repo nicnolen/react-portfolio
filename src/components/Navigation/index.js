@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import '../../assets/css/Navigation.css';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 import { Navbar, Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../assets/css/About.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About() {
