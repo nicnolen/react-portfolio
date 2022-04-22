@@ -5,6 +5,7 @@
 ## Table of Contents
 
 - [Description](#description)
+- [Skills Used](#skills-used)
 - [Getting Started with Create React App](#getting-started-with-create-react-app)
 - [Usage Instructions](#usage-instructions)
 - [License Section](#license)
@@ -13,6 +14,13 @@
 ## Description
 
 A professional portfolio to showcase my work to employeers.
+
+## Skills Used
+- React.js
+- React Bootstrap
+- Sass
+- Node.js
+- JSON
 
 ## Getting Started with Create React App
 
