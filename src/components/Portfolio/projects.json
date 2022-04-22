@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Hawker",
-    "description": "A marketplace for buying and selling items",
+    "description": "A marketplace for buying and selling items.",
     "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/hawker-home.png",
     "github": "https://github.com/nicnolen/Hawker",
     "deployed": "https://texas-hawker.herokuapp.com/",
@@ -11,7 +11,7 @@
   {
     "id": "2",
     "title": "Travel Lovers",
-    "description": "Professional portfolio to showcase skills to employers",
+    "description": "Professional portfolio to showcase skills to employers.",
     "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/travel-lovers.png",
     "github": "https://github.com/nicnolen/Travel-Lovers",
     "deployed": "https://travel--lovers.herokuapp.com/",
@@ -20,7 +20,7 @@
   {
     "id": "3",
     "title": "Watchopedia",
-    "description": "A website that allows a user to easily search for a movie, TV show, or actor information through API requests",
+    "description": "A website that allows a user to easily search for a movie, TV show, or actor information through API requests.",
     "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/watchopedia-homepage.png",
     "github": "https://github.com/nicnolen/watchopedia",
     "deployed": "https://nicnolen.github.io/watchopedia/",
@@ -47,7 +47,7 @@
   {
     "id": "6",
     "title": "Weather Dashboard",
-    "description": "A weather dashboard that dynamically displays the current weather and five day forecast for searched cities",
+    "description": "A weather dashboard that dynamically displays the current weather and five day forecast for searched cities.",
     "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/weather-homepage.png",
     "github": "https://github.com/nicnolen/weather-dashboard",
     "deployed": "https://nicnolen.github.io/weather-dashboard/",

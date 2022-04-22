@@ -3,6 +3,7 @@ import React from 'react';
 function Project({ title, description, image, github, deployed, tools }) {
   return (
     <div className="card mb-5">
+      <div className="description">{description}</div>
       <figure className="img-container mb-0">
         <a href={deployed}>
           <img src={image} alt={description} className="project" />
