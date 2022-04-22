@@ -23,6 +23,7 @@ form {
   align-items: center;
   justify-content: center;
   margin: 25px auto;
+  height: 68vh;
 }
 
 form label {
@@ -71,7 +72,6 @@ button {
 footer {
   display: flex;
   justify-content: space-around;
-  position: absolute;
   width: 100%;
 }
 
