@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <div
+    class="card mb-5"
+  >
+    <div
+      class="description"
+    />
+    <figure
+      class="img-container mb-0"
+    >
+      <a>
+        <img
+          class="project"
+        />
+      </a>
+    </figure>
+    <div
+      class="content d-flex justify-content-between align-items-center"
+    >
+      <span
+        class="github-link"
+      >
+        <a>
+          <img
+            alt="GitHub Repo"
+            src="http://nicnolen.github.io/react-portfolio/assets/images/icons/github.svg"
+          />
+          <h3
+            class="card-title"
+          />
+        </a>
+      </span>
+      <h4
+        class="project-skills fs-4 pb-1 px-1"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

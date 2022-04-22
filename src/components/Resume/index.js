@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../assets/css/Resume.css';
 import resume from '../../assets/images/portfolioImages/resume.pdf';
 import FrontendSkills from '../FrontendSkills';
 import BackendSkills from '../BackendSkills';

@@ -95,6 +95,21 @@
     "documentation": "https://devdocs.io/bash/"
   },
   {
+    "name": "ESLint",
+    "category": "frontend",
+    "documentation": "https://eslint.org/docs/user-guide/configuring/"
+  },
+  {
+    "name": "Prettier",
+    "category": "frontend",
+    "documentation": "https://prettier.io/docs/en/options.html"
+  },
+  {
+    "name": "Cloudinary",
+    "category": "frontend",
+    "documentation": "https://cloudinary.com/documentation"
+  },
+  {
     "name": "Adobe Photoshop",
     "category": "frontend",
     "documentation": "https://helpx.adobe.com/photoshop/user-guide.html"
@@ -103,6 +118,21 @@
     "name": "SPAs",
     "category": "frontend",
     "documentation": "https://developer.mozilla.org/en-US/docs/Glossary/SPA"
+  },
+  {
+    "name": "Global State",
+    "category": "frontend",
+    "documentation": "https://dev.mobify.com/v2.x/how-to-guides/categories/state-management/managing-global-state"
+  },
+  {
+    "name": "GitHub Actions",
+    "category": "backend",
+    "documentation": "https://docs.github.com/en/actions/quickstart"
+  },
+  {
+    "name": "YAML",
+    "category": "backend",
+    "documentation": "https://yaml.org/spec/1.2.2/"
   },
   {
     "name": "Heroku",
@@ -165,6 +195,16 @@
     "documentation": "https://graphql.org/learn/"
   },
   {
+    "name": "Stripe",
+    "category": "backend",
+    "documentation": "https://stripe.com/docs"
+  },
+  {
+    "name": "Faker.js",
+    "category": "backend",
+    "documentation": "https://fakerjs.dev/guide/"
+  },
+  {
     "name": "Inquirer",
     "category": "backend",
     "documentation": "https://www.npmjs.com/package/inquirer#documentation"
@@ -173,6 +213,11 @@
     "name": "sessionstorage",
     "category": "backend",
     "documentation": "https://www.npmjs.com/package/sessionstorage"
+  },
+  {
+    "name": "JSON Web Token (JWT)",
+    "category": "backend",
+    "documentation": "https://jwt.io/introduction"
   },
   {
     "name": "bcrypt",

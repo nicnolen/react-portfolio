@@ -2,6 +2,158 @@
 /* BACKGROUND COLORS */
 /* IMAGE FOLDER PATH */
 /* FADE IMAGE */
+.professional-picture {
+  height: auto;
+  width: 100%;
+}
+
+.about-intro {
+  color: #d2042d;
+  font-size: 6vh;
+}
+
+.about-info {
+  color: #61dafb;
+  font-size: 3vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25px auto;
+}
+
+form label {
+  font-size: 1.2rem;
+  margin: 0.625rem 0 0.25rem;
+  color: #d2042d;
+}
+
+form label,
+form input,
+form textarea {
+  display: block;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+  border-radius: 10px;
+}
+
+input:focus {
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+textarea {
+  width: 100%;
+  height: auto;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+button {
+  width: 37rem;
+}
+
+.error {
+  background-color: #d49828;
+  color: #d2042d;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  width: 100%;
+}
+
+footer h4 {
+  color: darkgreen;
+}
+
+.navigation {
+  background-color: rgba(170, 170, 170, 0.7);
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navActive {
+  color: #f3a847;
+}
+
+.card {
+  max-width: 100%;
+}
+
+.img-container {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.description {
+  background-color: #d49828;
+  color: darkgreen;
+  font-size: 2vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.content {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/portfolioImages/project-background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-right: 2vw;
+  color: #d49828;
+  font-size: 4vw;
+}
+
+.github-link, .project-skills {
+  background-color: #d49828;
+}
+
+.project-skills {
+  border-radius: 5px;
+}
+
+.card-title {
+  display: inline-block;
+  color: darkgreen;
+}
+
+.resume {
+  font-size: 5vh;
+  text-decoration: none;
+}
+
+.wrapper h4 {
+  color: #d2042d;
+  font-size: 2.5vh;
+}
+
+li, li a, div a {
+  color: #61dafb;
+}
+
+ul, .wrapper li a, .download-resume {
+  font-size: 2vh;
+}
+
 /* Universal Selectors */
 * {
   margin: 0;
@@ -14,10 +166,36 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/portfolioImages/bg-img.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+section {
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer a, div a, li a, a {
+  text-decoration: none;
+}
+
+.top-title {
+  color: #d49828;
+  font-size: 6vh;
+  text-align: center;
+}
+
+.subtitle {
+  color: #9400d3;
+  font-size: 4vh;
 }
 
 /*# sourceMappingURL=index.css.map */
