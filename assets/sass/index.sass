@@ -1,16 +1,43 @@
-@import './variables'
+@import './_variables'
+@import './_About'
+@import './_Contact'
+@import './_Footer'
+@import './_Navigation'
+@import './_Portfolio'
+@import './_Resume'
 
 /* Universal Selectors */
-* 
+*
   margin: 0
   padding: 0
   box-sizing: border-box
 
-body 
+body
   margin: 0
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
+  background: $fadeImage, url(#{$portfolioImagePath}/bg-img.jpg)
+  background-size: cover
+  background-position: center
 
-code 
+code
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
+
+section
+  position: relative
+
+ul
+  list-style-type: none
+
+footer a, div a, li a, a
+  text-decoration: none
+
+.top-title
+  color: $gold
+  font-size: 6vh
+  text-align: center
+
+.subtitle
+  color: $dark-violet
+  font-size: 4vh
