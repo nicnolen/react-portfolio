@@ -37,11 +37,11 @@
   },
   {
     "id": "5",
-    "title": "Professional README.md",
-    "description": "An easy way to create a professional README.md using node.js and it's npm packages",
-    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/README-homepage.png",
-    "github": "https://github.com/nicnolen/README-generator",
-    "deployed": "https://github.com/nicnolen/README-generator/tree/main/Develop",
+    "title": "Hawker",
+    "description": "A marketplace for buying and selling items",
+    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/hawker-home.png",
+    "github": "https://github.com/nicnolen/Hawker",
+    "deployed": "https://texas-hawker.herokuapp.com/",
     "tools": "JavaScript/Node.js/Inquirer/OOP"
   },
   {
