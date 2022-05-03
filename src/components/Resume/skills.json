@@ -160,6 +160,11 @@
     "documentation": "https://spring.io/projects/spring-session"
   },
   {
+    "name": "Spring Data JPA",
+    "category": "backend",
+    "documentation": "https://docs.spring.io/spring-data/jpa/docs/current/reference/html/"
+  },
+  {
     "name": "Thymeleaf",
     "category": "backend",
     "documentation": "https://www.thymeleaf.org/documentation.html"
