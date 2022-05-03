@@ -145,6 +145,26 @@
     "documentation": "https://nodejs.org/en/docs/"
   },
   {
+    "name": "Java",
+    "category": "backend",
+    "documentation": "https://docs.oracle.com/en/java/"
+  },
+  {
+    "name": "Spring Boot",
+    "category": "backend",
+    "documentation": "https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/"
+  },
+  {
+    "name": "Spring Session",
+    "category": "backend",
+    "documentation": "https://spring.io/projects/spring-session"
+  },
+  {
+    "name": "Thymeleaf",
+    "category": "backend",
+    "documentation": "https://www.thymeleaf.org/documentation.html"
+  },
+  {
     "name": "Express.js",
     "category": "backend",
     "documentation": "https://expressjs.com/en/5x/api.html"

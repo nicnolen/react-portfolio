@@ -15,7 +15,7 @@
     "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/travel-lovers.png",
     "github": "https://github.com/nicnolen/Travel-Lovers",
     "deployed": "https://travel--lovers.herokuapp.com/",
-    "tools": "Handlebars.js, Sequelize, SASS, bcrypt"
+    "tools": "Handlebars.js/Sequelize/SASS/bcrypt"
   },
   {
     "id": "3",
@@ -28,21 +28,21 @@
   },
   {
     "id": "4",
+    "title": "Just Tech News",
+    "description": "This app allows a user to post an article from another source and other users can vote or comment on the post.",
+    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/just-tech-news-dashboard.png",
+    "github": "https://github.com/nicnolen/tech-news-java-api",
+    "deployed": "https://cc-java-api-32.herokuapp.com/",
+    "tools": "Java/Spring Boot/Thymeleaf/Spring Session/MySQL"
+  },
+  {
+    "id": "5",
     "title": "Shop Shop",
     "description": "E-commerce application that sells some of the finest items available on the internet.",
     "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/shop-shop.png",
     "github": "https://github.com/nicnolen/shop-shop",
     "deployed": "https://dry-shelf-71701.herokuapp.com/",
-    "tools": "MongoDB, Express.js, React.js, Node.js, TDD"
-  },
-  {
-    "id": "5",
-    "title": "Just Tech News",
-    "description": "This app allows a user to post an article from another source and other users can vote or comment on the post.",
-    "image": "http://nicnolen.github.io/react-portfolio/assets/images/projectImages/just-tech-news-dashboard.png",
-    "github": "https://github.com/nicnolen/just-tech-news",
-    "deployed": "https://just--tech--news.herokuapp.com/",
-    "tools": "MySQL/Handlebars.js/ORM/Express.js"
+    "tools": "MongoDB/Express.js/React.js/Node.js/TDD"
   },
   {
     "id": "6",
