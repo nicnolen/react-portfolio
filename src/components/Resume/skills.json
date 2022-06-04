@@ -145,6 +145,11 @@
     "documentation": "https://nodejs.org/en/docs/"
   },
   {
+    "name": "C#",
+    "category": "backend",
+    "documentation": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+  },
+  {
     "name": "Java",
     "category": "backend",
     "documentation": "https://docs.oracle.com/en/java/"
